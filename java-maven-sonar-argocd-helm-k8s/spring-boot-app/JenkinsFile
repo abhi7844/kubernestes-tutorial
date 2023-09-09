@@ -12,7 +12,7 @@ pipeline {
         git branch: 'main', url: 'https://github.com/abhi7844/kubernestes-tutorial.git'
       }
     }
-  }
+  
 
     stage('Build') {
         steps {
@@ -58,4 +58,5 @@ pipeline {
               }
           }
       }
+  }
 }    
